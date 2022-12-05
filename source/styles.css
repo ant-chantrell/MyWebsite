@@ -147,6 +147,12 @@ p {
     color: white;
 }
 
+.project-card:hover {
+    background-color: #00022a;
+    width: 360px;
+    height: 460px;
+}
+
 .project-container {
     display: flex;
     justify-content:space-evenly;
@@ -158,6 +164,16 @@ p {
         flex-wrap: wrap;
     }
 
+}
+
+.project-img {
+    width: 320px;
+    height: 215px;
+    margin-top: 5px;
+}
+
+.project-text {
+    font-size: 15px;
 }
 
 .sub-section-alt {
